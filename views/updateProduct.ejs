@@ -13,12 +13,8 @@
         <form method="POST" id="updateProduct">
             <div class="newProduct">
                 <div class="form-group">
-                    <label for="id" class="text-dark">Product ID</label>
-                    <input type="hidden" name="id" value="<%= product.id %>">
-                    <input type="text" name="id" value="<%= product.id %>" placeholder="123">
-                </div>
-                <div class="form-group">
                     <label for="name" class="text-dark">Product Name</label>
+                    <input type="hidden" name="id" value="<%= product._id %>">
                     <input type="text" name="name" value="<%= product.name %>" placeholder="Eggs">
                 </div>
                 <div class="form-group">
