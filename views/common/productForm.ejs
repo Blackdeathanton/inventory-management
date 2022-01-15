@@ -1,0 +1,31 @@
+<form action="/api/products" method="POST" id="addProduct">
+    <div class="newProduct">
+        <div class="form-group">
+            <label for="id" class="text-dark">Product ID</label>
+            <input type="hidden" name="id" value="">
+            <input type="text" name="id" value="" placeholder="123">
+        </div>
+        <div class="form-group">
+            <label for="name" class="text-dark">Product Name</label>
+            <input type="hidden" name="id" value="">
+            <input type="text" name="name" value="" placeholder="Eggs">
+        </div>
+        <div class="form-group">
+            <label for="price" class="text-dark">Price</label>
+            <input type="number" name="price" value="" placeholder=5>
+        </div>
+        <div class="form-group">
+            <label for="units" class="text-dark">Units Left</label>
+            <input type="number" name="units" value="" placeholder=20>
+        </div>
+        <div class="form-group">
+            <label for="category" class="text-dark">Product Category</label>
+            <input type="text" name="category" value="" placeholder="Food">
+        </div>
+
+        <div class="form-group">
+            <button type="submit" class="btn text-dark update">Save</button>
+        </div>
+
+    </div>
+</form>

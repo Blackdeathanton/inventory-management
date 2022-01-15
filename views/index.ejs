@@ -1,0 +1,43 @@
+<%- include("common/_header") %>
+
+<main id="main-site">
+    <div id="container">
+        <a href="/addProduct" class="border-shadow" style="margin: 25%;">
+            <span class="text-gradient"><i class="fas fa-shopping-cart"></i> New Product</span>
+        </a>
+
+        <form action="/" method="POST">
+            <table class="table">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>Product ID</th>
+                        <th>Product Name</th>
+                        <th>Price</th>
+                        <th>Units Left</th>
+                        <th>Product Category</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>123</td>
+                        <td>Eggs</td>
+                        <td>5 <span>USD</span></td>
+                        <td>100</td>
+                        <td>Food</td>
+                        <td>
+                            <a href="" class="btn border-shadow update">
+                                <span class="text-gradient"><i class="fas fa-pencil-alt"></i></span>
+                            </a>
+                            <a class="btn border-shadow delete">
+                                <span class="text-gradient"><i class="fas fa-times"></i></span>
+                            </a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    </div>
+</main>
+
+<%- include("common/_footer") %>
