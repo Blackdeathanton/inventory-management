@@ -21,7 +21,6 @@ router.get('/addProduct', (request, response) => (
 router.get('/updateProduct', (request, response) => (
     axios.get('http://localhost:3000/api/products', {params: {id: request.query.id}})
     .then(function(data) {
-        console.log(data.data);
         response.render("updateProduct", {product: data.data});
     })
 ));
