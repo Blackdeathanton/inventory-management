@@ -29,6 +29,15 @@ app.get('/', (request, response) => (
     response.render("index")
 ));
 
+app.get('/addProduct', (request, response) => (
+    response.render("addProduct")
+));
+
+app.get('/updateProduct', (request, response) => (
+    response.render("updateProduct")
+));
+
+
 app.listen(3000, () => {
     console.log(`Inventory Management System is running on http://localhost:${PORT}`);
 });
