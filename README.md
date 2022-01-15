@@ -10,3 +10,4 @@ This is an inventory tracking web application for a logistics company
  - ```npm install``` to install all the dependencies
  - ```npm start``` for starting the server
  - The server will be running in ```http://localhost:3000```. PORT can be changed in ```config.env``` file.
+ - Paste ```MONGO_URI``` property from the extra file added as attachment in the application form.
